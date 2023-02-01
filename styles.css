@@ -1,0 +1,49 @@
+.body {
+   display: flex;
+    margin: auto;
+    justify-content: center;
+  
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.dd {
+    margin-top: 0px;
+    border: 1px solid black;
+
+}
+
+.title {
+    margin-top: 40px;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.name {
+    width: 200px;
+}
+
+.lastname {
+    width: 200px;
+}
+
+.basket {
+    margin-top: 0;
+    display: flex;
+    justify-content:space-around;
+    height: 135px;
+    width: 120px;
+    border: 1px solid black
+}
+
+.basket:hover {
+    background-color: red;
+}
