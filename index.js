@@ -32,8 +32,11 @@ window.addEventListener("DOMContentLoaded", () => {
         del.addEventListener("click", (e) => {
           fetch(`https://reqres.in/api/users/${data.data[i].id}`, {
             method: "DELETE",
-          }).then(() => console.log("Пользователь удален")).catch((err) => console.log(err));
-          e.target.parentElement.parentElement.remove();
+          }).then(() => {
+            e.target.parentElement.parentElement.remove()
+            console.log("Пользователь удален")
+        }).catch((err) => console.log(err));
+          ;
         });
       }
     })();
